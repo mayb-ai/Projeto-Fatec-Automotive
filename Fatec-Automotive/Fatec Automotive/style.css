@@ -1,0 +1,221 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+}
+
+
+
+.logout{
+    text-align: center;
+    margin: auto;
+}
+
+.login{
+    border: 3px solid rgb(22, 2, 77);
+    border-right: none;
+    border-left: none;
+    border-radius: 5px;
+    background: rgba(255, 171, 46, 0.192);
+
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px;
+}   
+
+.texto-login{
+    text-align: center;
+    display: block;
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(22, 2, 77);
+}
+
+.input-dado{
+    background-color: white;
+    border: 2px solid rgb(22, 2, 77);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: auto;
+
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: italic;
+    width: 200px;
+}
+
+.enter{
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(22, 2, 77);
+    color:rgb(255, 153, 0);
+    border: none;
+    border-radius: 10%;
+}
+
+.botao-enter{
+    text-decoration: none;
+}
+
+.enter:hover{
+    background-color: rgb(255, 153, 0);
+    color: rgb(22, 2, 77);
+    transition: .5s;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.inicial{
+    background:  rgb(22, 2, 77);
+    display: flex;
+}
+
+.logo-inicial{
+    margin:auto;
+    border: 3px solid rgb(22, 2, 77);
+    border-radius: 30%;
+    height: 150px;
+}
+
+.logo{
+    margin-left: 80px;
+    margin: auto;
+    height: 100px;
+    border: 3px solid rgb(22, 2, 77);
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+.titulo-inicial{
+    text-align: center;
+    color: rgb(255, 153, 0);
+    font-weight: 750;
+    font-size: 50px;
+}
+
+.texto-inicial{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.botao-inicial{
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.texto-botao-inicial{
+    display: block;
+    background-color: rgb(22, 2, 77);
+    width: 500px;
+    margin: auto;
+    padding: 30px 25px;
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 750;
+}
+
+.texto-botao-inicial:hover{
+    background-color: rgb(255, 153, 0);
+    color: rgb(22, 2, 77);
+    transition: .5s;
+}
+
+
+
+
+
+.corpo{
+    background-color: rgb(22, 2, 77);
+    display: flex;
+    border-bottom: 2px solid rgb(255, 153, 0);
+    margin: auto;
+    margin-left: 80px;
+}
+
+.menu-lateral{
+    background-color: rgb(22, 2, 77);
+    width: 80px;
+    height: 100%;
+    box-shadow: 3px 0 0 rgb(255, 153, 0);
+    padding: 20px 0 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+.menu-lateral:hover{
+    width: 400px;
+    transition: .2s;
+    
+}
+
+.menu-lateral::selection{
+    background-color: rgb(255, 153, 0);
+}
+
+.btn-expandir{
+    padding-left: 15px;
+    margin: auto;
+}
+
+.btn-expandir > i{
+    color: rgba(255, 255, 255, 0.623);
+    cursor: pointer;
+    font-size: 40px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+    height: 100%;
+}
+
+ul li.item-menu:hover{
+    background: rgb(255, 153, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+ul li.item-menu{
+    transition: .50s;
+}
+
+ul li.item-menu a{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 20px;
+    text-decoration:none;
+    padding: 20px 4%;
+    display: flex;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 80px;
+    position: absolute;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+}
